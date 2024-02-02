@@ -663,12 +663,13 @@ span{
     right: 0;
     width: 100%;
     height: 100%;
-    background: var(--bg-color);
+/*    background: var(--bg-color);*/
+    background: transparent;
     z-index: 98;
 }
-.animate.home-img{
+/*.animate.home-img{
     width: 50%;
-}
+}*/
 .logo .animate,
 .navbar .animate,
 #menu-icon .animate,
@@ -681,7 +682,7 @@ span{
 .animate.scroll {
     transition: 1s ease;
     transition-delay: calc(.3s / var(--i));
-    background: transparent; /* Set background to transparent */
+    /*background: transparent;  Set background to transparent */
 }
 .education .education-box .animate.scroll{
     width: 105%;
@@ -693,9 +694,9 @@ span{
 .skills.show-animate .animate.scroll,
 .contact.show-animate .animate.scroll,
 .footer.show-animate .animate.scroll {
-    transition-delay: calc(.3s*var(--i));
+    transition-delay: calc(.3s * var(--i));
     width: 0;
-    background: transparent; /* Set background to transparent */
+   /* background: transparent;  Set background to transparent */
 }
 
 
