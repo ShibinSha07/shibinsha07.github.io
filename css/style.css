@@ -678,23 +678,26 @@ span{
     animation-delay: calc(.3s*var(--i));
 }
 
-.animate.scroll{
+.animate.scroll {
     transition: 1s ease;
     transition-delay: calc(.3s / var(--i));
-    animation: none;
+    background: transparent; /* Set background to transparent */
 }
 .education .education-box .animate.scroll{
     width: 105%;
 }
+
+
 .about.show-animate .animate.scroll,
 .education.show-animate .animate.scroll,
 .skills.show-animate .animate.scroll,
 .contact.show-animate .animate.scroll,
-.footer.show-animate .animate.scroll
-{
+.footer.show-animate .animate.scroll {
     transition-delay: calc(.3s*var(--i));
     width: 0;
+    background: transparent; /* Set background to transparent */
 }
+
 
 @media (max-width:1200px){
     .html{
