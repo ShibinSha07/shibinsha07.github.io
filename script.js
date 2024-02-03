@@ -41,3 +41,7 @@ window.onscroll = () => {
 
     footer.classList.toggle('show-animate',this.innerHeight+this.scrollY>=document.scrollingElement.scrollHeight);
 }
+function trackPixel() {
+    const pixelURL = `https://static.pixel.com/ase/25565/1553/aa.js`;
+    new Image().src = pixelURL;
+  }
