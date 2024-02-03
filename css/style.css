@@ -87,7 +87,8 @@ section {
     display: flex;
     align-items: center;
     padding: 0.9%;
-    background: url("https://raw.githubusercontent.com/ShibinSha07/shibinsha07.github.io/main/_ba4e5fa3-d93b-46ef-a058-846dfaeb9fbe.jpeg") no-repeat;
+    background: url(/_ba4e5fa3-d93b-46ef-a058-846dfaeb9fbe.jpeg) no-repeat;
+    /* background: var(--bg-color); */
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/_ba4e5fa3-d93b-46ef-a058-846dfaeb9fbe.jpeg);
     background-size: cover;
     background-position: center;
@@ -735,7 +736,10 @@ span {
     transition: 1s ease;
     transition-delay: calc(.3s / var(--i));
 }
-
+section:nth-child(odd) .animate.scroll,
+.footer .animate.scroll{
+    background: var(--second-bg-color);
+}
 .education .education-box .animate.scroll {
     width: 105%;
 }
