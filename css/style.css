@@ -95,12 +95,18 @@ section {
 }
 
 .home-content {
+    
     max-width: 60rem;
+    /* text-align: center; */
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .home-content h1 {
     position: relative;
     display: inline-block;
+    /* align-items: center; */
     font-size: 5.6rem;
     font-weight: 700;
     line-height: 1.3;
